@@ -21,8 +21,10 @@ class AsciiArt:
             art.append('\n')
         print( ''.join(art))
 
-art=AsciiArt('mysite/a49aea40-27e9-43d8-bbde-19c4af035b60.jpg')
-art.generate_art()
+        
+if __name__ == "__main__"
+    art=AsciiArt('mysite/a49aea40-27e9-43d8-bbde-19c4af035b60.jpg')
+    art.generate_art()
 
 
 
