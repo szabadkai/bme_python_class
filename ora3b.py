@@ -1,10 +1,29 @@
-from collections import Counter
-fh = open("war_and_peace.txt", 'r')
-# Find the most common 5 words in War and Peace
-
-words = Counter()
+>>> fh=open("war_and_peace.txt")
+>>> counter=0
+>>>
 for line in fh:
-    words.update(
-        [word.strip("., \n") for word in line.lower().split()]    )
-
-print (words.cost_common(5))
+    if "dog" in line:
+        count = count+1
+>>> count=0
+>>>
+for line in fh:
+    if "dog" in line:
+        count = count+1
+>>> count
+>>> fh=open("war_and_peace.txt")
+>>>
+for line in fh:
+    if "dog" in line:
+        for word in line.split():
+            if word.lower()== "dog":
+                count=count +1
+>>> count
+>>> from collections import Counter
+>>> fh=open("war_and_peace.txt")
+>>> war_and_peace=Counter
+>>> war_and_peace=Counter()
+>>>
+for line in fh:
+    war_and_peace.update(line.lower().split())
+>>> war_and_peace['dog']
+>>> war_and_peace.most_common(5)
